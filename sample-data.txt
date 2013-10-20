@@ -1,0 +1,57 @@
+
+#host:=ap04#
+DISTRIB_ID="OpenWrt"
+DISTRIB_RELEASE="12.09"
+DISTRIB_REVISION="r36088"
+DISTRIB_CODENAME="attitude_adjustment"
+DISTRIB_TARGET="ar71xx/generic"
+DISTRIB_DESCRIPTION="OpenWrt Attitude Adjustment 12.09"
+##intf:=wlan1##
+###iwinfo###
+wlan1     ESSID: "TMA2013"
+          Access Point: A0:F3:C1:8C:12:80
+          Mode: Master  Channel: 36 (5.180 GHz)
+          Tx-Power: 17 dBm  Link Quality: 0/70
+          Signal: unknown  Noise: -90 dBm
+          Bit Rate: unknown
+          Encryption: mixed WPA/WPA2 PSK (TKIP, CCMP)
+          Type: nl80211  HW Mode(s): 802.11an
+          Hardware: 168C:0033 168C:A120 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes
+###stations###
+
+##intf:=wlan0-1##
+###iwinfo###
+wlan0-1   ESSID: "TMA2013TEST"
+          Access Point: A2:F3:C1:8C:12:80
+          Mode: Master  Channel: 11 (2.462 GHz)
+          Tx-Power: 20 dBm  Link Quality: 0/70
+          Signal: unknown  Noise: -89 dBm
+          Bit Rate: unknown
+          Encryption: mixed WPA/WPA2 PSK (TKIP, CCMP)
+          Type: nl80211  HW Mode(s): 802.11bgn
+          Hardware: unknown [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes
+###stations###
+
+##intf:=wlan0##
+###iwinfo###
+wlan0     ESSID: "TMA2013"
+          Access Point: A0:F3:C1:8C:12:7F
+          Mode: Master  Channel: 11 (2.462 GHz)
+          Tx-Power: 20 dBm  Link Quality: 0/70
+          Signal: unknown  Noise: -89 dBm
+          Bit Rate: unknown
+          Encryption: mixed WPA/WPA2 PSK (TKIP, CCMP)
+          Type: nl80211  HW Mode(s): 802.11bgn
+          Hardware: unknown [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes
+###stations###
+
+
